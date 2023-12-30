@@ -1,0 +1,177 @@
+/* for color we use this  */
+:root{
+    --btn-color:#f27474 ;
+    --text-color:#030100;
+    --bg-color-1: #fff4b0;
+    --bg-color-2:#ffb6ee;
+
+}
+
+/* body */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(125deg,#fff4b0,#ffb6ee);
+    width: 100%;
+    height: 800px;
+}
+.nav-container{
+    background: var(--btn-color);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* margin-left: 130px; */
+    padding-left: 130px;
+
+}
+.nav-container img{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+   
+}
+.navbar ul li {
+    color:var(--text-color);
+    padding: 20px;
+    text-decoration: none;
+    align-items: center;
+    list-style-type: none;
+}
+.navbar ul li a{
+    display:block;
+    text-align:center;
+    text-decoration:none; 
+    /* background-color: red; */
+    align-items: center;
+    color: var(--text-color);
+    font-size: 25px;
+    font-weight: 600;
+    word-spacing: 2px;
+    margin-left: 35px;
+
+    
+
+}
+
+/* nav end */
+/* body sections start */
+.container{
+    display: flex;
+}
+.left-container{
+    width: 50%;
+    height: 100%;
+    /* background-color: red;s */
+}
+.left-container h1{
+    margin-top: 100px;
+    padding: 100px;
+    font-size: 50px;
+    width: 100%;
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 600; */
+}
+.left-container p{
+    margin-top: -23px;
+    padding-left: 100px;
+    padding-right: 150px;
+    font-size: 18px;
+    width: 75%;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.right-container img{
+    width: 700px;
+    height: 740px;
+    margin-top: 0px;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color: var(--btn-color);
+    color: white;
+    border: none;
+    /* padding: 100px; */
+    margin: 100px;
+    cursor: pointer;
+}
+.btn a{
+    
+    text-align:center;
+    text-decoration:none; 
+    word-spacing: 2px;
+    color: white;
+    font-size: 15px;
+    
+
+}
+
+/* banner */
+.container-banner{
+    position: relative;
+    /* background-color: red; */
+    margin: 100px;
+    /* padding: 100px; */
+    display: flex;
+    height: 400px;
+}
+.left-container-banner{
+    display: flex;
+    padding: 10px;
+    width: 50%;
+}
+.left-container-banner img{
+    width: 275px;
+    height: 520px;
+    padding: 10px;
+}
+.left-container-banner .images{
+    height: 400px;
+    display: inline;
+}
+.left-container-banner .images img{
+    /* height: 50%; */
+    height: 250px;
+    width: 275px;
+    padding: 10px;
+
+}
+.right-container-banner{
+    background-color: var(--btn-color);
+    width: 100%;
+    height: 200px;
+    margin: 160px auto;
+    padding: 50px;
+}
+.right-container-banner h1{
+    /* margin-top: 100px; */
+    /* padding: 100px; */
+    font-size: 50px;
+    width: 100%;
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 600; */
+    padding-top: 20px;
+}
+.right-container-banner h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    /* padding: 10px; */
+
+}
+.right-container-banner .btns{
+    display: flex;
+    padding-top: 20px;
+}
+.right-container-banner .btns img{
+    padding: 10px;
+    margin-top: -20px;
+    /* background-color: red; */
+}
